@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieRankings</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyD_mV6uSAjrTvBqAvAP0Tpl6XH3SIbVrcY",
+      authDomain: "bits21-movieranks.firebaseapp.com",
+      projectId: "bits21-movieranks",
+      storageBucket: "bits21-movieranks.appspot.com",
+      messagingSenderId: "149903924905",
+      appId: "1:149903924905:web:066abc2dbd469bbed193b8"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <nav class="navbar is-link">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <p class="title-3"><b>MovieRankings</b></p>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="columns is-multiline" id="movies">
+
+      <!-- TEMPLATE FOR MOVIE CARD
+      <div class="column is-2">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-3by4">
+              <img src="" alt="MOVIE_NAME">
+            </figure>
+          </div>
+          <div class="content p-2">
+            <p class="title is-6">MOVIE_NAME</p>
+            <p class="subtitle is-5 has-text-link"><b>MOVIE_RATING</b></p>
+          </div>
+        </div>
+      </div>-->
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p><b>MovieRankings</b> Built by Harshana</p>
+    </div>
+  </footer>
+</body>
+</html>
